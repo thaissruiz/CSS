@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Selectors</title>
+  </head>
+  <body>
+    <style>
+* h1,p{color: green};
+
+
+</style>
+      
+    <h1>Selectors</h1>
+    <hr>
+    <form id="login">
+        <style>
+            #login {
+    color: gray;
+}
+
+
+
+        </style>
+      <div>
+          <style>
+                #username,#password {
+    color: gray;};
+    label,input {
+  color: pink;}
+          </style>
+        <label for="username">Username</label>
+        <input name="username" id="username" placeholder="Username">
+      </div>
+      <div>
+        <style>
+            label,input {
+  color: pink;
+}
+        </style>
+          <label for="password">Password</label>
+          <input name="password" id="password" placeholder="Password">
+      </div>
+      <div>
+          <style>
+                input [type="submit"] {
+            color: brown;}
+          </style>
+      
+        <input type="submit" value="Submit">
+      </div>
+    </form>
+    <div>
+        <style>
+
+.red{
+    color: red;};
+
+
+        </style>
+      <p>This text is <span class="red">red</span></p>
+      <a href="#" class="red">Link</a>
+    </div>
+
+  </body>
+</html>
+
+

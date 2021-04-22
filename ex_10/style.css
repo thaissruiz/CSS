@@ -1,0 +1,67 @@
+body{
+
+    margin: 0%;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px ;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding-top: 10px 20px 10px 20px;
+    padding-bottom: 10px;
+
+}
+header h2 {
+    margin: 0;
+    text-shadow: 1px 2px 3px #666;
+
+}
+
+.main{
+    padding: 20px;
+
+}
+ .main  p{
+     text-align: justify;
+
+ }
+ .overflow{
+     height: 150px;
+     overflow-y: scroll;
+ }
+footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+
+}
+footer a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2em;
+    border-right:1px solid white ;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+a:hover{
+    color:gray;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:last-child {
+    border-right: none;
+
+}
+.news{
+margin-top:  20px;
+box-shadow: rgba(0,0,0,0.1);
+padding-top: 5px;
+padding-bottom: 5px;
+padding: 0 10px 0 10px;
+}
+
